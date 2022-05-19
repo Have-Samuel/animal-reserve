@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render App correctly render 1`] = `
+Array [
+  <header
+    className="header"
+  >
+    <nav
+      className="nav"
+    >
+      <img
+        alt="animal"
+        className="nav-icons"
+        src="./images/Pearl.png"
+      />
+      <h2
+        className="nav-title"
+      >
+        Respect For Wildlife
+      </h2>
+      <div
+        className="nav-search"
+      >
+        <img
+          alt="mic"
+          className="nav-icons mic"
+          src="./images/mic.png"
+        />
+        <img
+          alt="mic"
+          className="nav-icons"
+          src="./images/settings-cog.png"
+        />
+      </div>
+    </nav>
+    <img
+      alt="Img"
+      className="home-img"
+      src="images/Pearl.png"
+    />
+    <div
+      className="image-cover"
+    />
+  </header>,
+  <div
+    className="search-sec"
+  >
+    <h4>
+      Animal Species
+    </h4>
+    <input
+      className="input"
+      onChange={[Function]}
+      palceholder="Search Animal..."
+      type="text"
+    />
+  </div>,
+  <main
+    className="main"
+  />,
+]
+`;
