@@ -1,4 +1,3 @@
-/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router';
 import { useDispatch, useSelector } from 'react-redux';
@@ -21,14 +20,15 @@ const HomePage = () => {
   const handleSearch = (event) => {
     event.preventDefault();
     let val = event.target.value;
-    if (val.length > 0) {val = val.toLowercase();
+    if (val.length > 0) {
+      val = val.toLowercase();
       const searchRes = animalArray.filter((arr) => arr.name.toLowercase().includes(val));
       setAnimal(searchRes);
     } else {
       setAnimal(animalArray);
     }
   };
-  console.log(animalArray);
+
   return (
     <>
       <header className="header">
