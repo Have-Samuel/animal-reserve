@@ -1,0 +1,41 @@
+.animalcard {
+  height: 200px;
+  width: 50%;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: space-between;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10px;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.animalname,
+.pointer {
+  z-index: 10;
+}
+
+.lightpink {
+  background-color: rgba(243, 53, 211, 0.6);
+}
+
+.darkpink {
+  background-color: rgba(185, 3, 115, 0.25);
+}
+
+@media screen and (min-width: 768px) {
+  .animalcard {
+    height: 400px;
+  }
+}
