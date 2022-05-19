@@ -17,7 +17,7 @@
 - HTML
 
 ## Live Demo
-[Live Demo]()
+[Live Demo](https://fastidious-belekoy-bdda73.netlify.app/)
 
 ## Setup project in your local machine
   To get a local copy of the project, follow these steps: 
