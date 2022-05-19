@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './Navbar.css';
-import { IoIosArrowBack } from "react-icons/io";
+import { IoIosArrowBack } from 'react-icons/io';
 import { NavLink } from 'react-router-dom';
 
 const Navbar = ({ title, back }) => (

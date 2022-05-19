@@ -7,9 +7,9 @@ import store from '../redux/configureStore';
 describe('render App correctly', () => {
   test('render', () => {
     const value = renderer.create(
-        <Provider store={store}>
-          <App />
-        </Provider>
+      <Provider store={store}>
+        <App />
+      </Provider>,
     );
     expect(value).toMatchSnapshot();
   });
