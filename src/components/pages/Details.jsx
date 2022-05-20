@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-curly-brace-presence */
 import React from 'react';
 import { useLocation } from 'react-router-dom';
 import Navbar from '../Navbar/Navbar';
@@ -10,7 +11,26 @@ const DetailsPage = () => {
     <>
       <header>
         <Navbar title={animal.name} back />
-        <img className="header-img" src={animal.img} alt={animal.name} />
+        <div className="img-container">
+          <img className="header-img" src={animal.img} alt={animal.name} />
+          <div className="tag">
+            <p>
+              Group name:
+              {' '}
+              {animal.group}
+            </p>
+            <p>
+              Active Time:
+              {' '}
+              {animal.active}
+            </p>
+            <p>
+              Life Span:
+              {' '}
+              {`${animal.lifespan} years`}
+            </p>
+          </div>
+        </div>
       </header>
       <main>
         <ul className="facts">
@@ -40,11 +60,11 @@ const DetailsPage = () => {
           </li>
           <li>
             <span className="factName">Maximum Weight</span>
-            <span className="factProp">{`${animal.manLength}`}</span>
+            <span className="factProp">{`${animal.maxWeight}kg`}</span>
           </li>
           <li>
             <span className="factName">Minimum weight</span>
-            <span className="factProp">{`${animal.minLength}`}</span>
+            <span className="factProp">{`${animal.minLength}kg`}</span>
           </li>
           <li>
             <span className="factName">Habitat</span>

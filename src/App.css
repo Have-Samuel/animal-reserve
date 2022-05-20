@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:thin,extra-light,light,100,200,300,400,500,600,700,800');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Crete+Round&family=Dosis:wght@300;400&family=Inter:wght@600&family=Lato:wght@700&family=Merriweather:ital@1&family=Montserrat:wght@700&family=Oswald&family=Playfair+Display:ital,wght@1,500&family=Poppins:wght@200;400;600&family=Quicksand:wght@700&family=Roboto+Condensed:wght@700&family=Roboto:wght@700&family=Space+Mono:ital@1&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -5,10 +8,11 @@
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
 }
 
 body {
+  font-family: 'Merriweather', serif;
   background-color: rgb(179, 15, 143);
   color: #fff;
 }
@@ -35,6 +39,25 @@ h6 {
 
 h3 {
   font-size: 18px;
+}
+
+.img-container {
+  width: 100%;
+  position: relative;
+}
+
+.tag {
+  float: left;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  z-index: 1000;
+  padding: 5px;
+  background-color: rgba(255, 0, 255, 0.151);
+  color: #fff;
+  font-weight: bold;
+  font-size: 25px;
+  border-radius: 5px;
 }
 
 ul {

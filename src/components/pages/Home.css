@@ -1,3 +1,4 @@
+/* stylelint-disable csstree/validator */
 .header {
   height: 220px;
   width: 100%;
@@ -41,12 +42,16 @@
   .header {
     height: 630px;
     padding: 50px 16rem 0;
+    display: flex;
+    justify-content: center;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .header {
     height: 800px;
+    display: flex;
+    justify-content: center;
   }
 
   .search-sec {
