@@ -45,9 +45,6 @@ Array [
   <div
     className="search-sec"
   >
-    <h4>
-      Animal Species
-    </h4>
     <input
       className="input"
       onChange={[Function]}
