@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:thin,extra-light,light,100,200,300,400,500,600,700,800');
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Crete+Round&family=Dosis:wght@300;400&family=Inter:wght@600&family=Lato:wght@700&family=Merriweather:ital@1&family=Montserrat:wght@700&family=Oswald&family=Playfair+Display:ital,wght@1,500&family=Poppins:wght@200;400;600&family=Quicksand:wght@700&family=Roboto+Condensed:wght@700&family=Roboto:wght@700&family=Space+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:thin,extra-light,light,100,200,300,400,500,600,700,800');
 
 * {
   padding: 0;
@@ -12,7 +11,7 @@ img {
 }
 
 body {
-  font-family: 'Merriweather', serif;
+  font-family: 'Lato', sans-serif;
   background-color: rgb(179, 15, 143);
   color: #fff;
 }
