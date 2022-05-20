@@ -1,62 +1,59 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Metrics ReactApp
 
-> Description the project.
+> In this project I built a mobile web application to check a list of animals making use of React and Redux.
 
+## ScreenShots
+<img src="./Ast.png">
+<img src="./Act.png">
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- React
+- Redux
+- CSS
+- JavaScript
+- HTML
 
-## Live Demo (if available)
+## Live Demo
+[Live Demo](https://animal-world-bdda73.netlify.app/)
 
-[Live Demo Link](https://livedemo.com)
+## Setup project in your local machine
+  To get a local copy of the project, follow these steps: 
+1. Open the terminal and navigate to the folder where you would     like to put these files.
+2. Type the following commands into the terminal: 
 
+ git clone https://github.com/Have-Samuel/reactRedux-Capstone
 
-## Getting Started
+ cd reactReddux-Capstone
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+ ##Run Project
 
+- $ npm install
+- $ npm run start # this will make webpack watching for your changes in code
 
-To get a local copy up and running follow these simple example steps.
+### Open page in browser
 
-### Prerequisites
+```bash
+$ open dist/index.html
+```
 
-### Setup
+## Author
 
-### Install
+👤 **Have Samuel**
 
-### Usage
+- GitHub: [Have-Samuel](https://github.com/Have-Samuel)
+- Twitter: [@samhave1](https://twitter.com/@samhave1)
+- LinkedIn: [Have Samuel Kabreebe](https://linkedin.com/in/Have-Samuel-Kabreebe)
 
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+## Credential
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Have-Samuel/reactRedux-Capstone/issues).
 
 ## Show your support
 
@@ -64,9 +61,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Thanks to my peers who are always there to offer support. 
+- Original design idea by {[Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio).
 
 ## 📝 License
 

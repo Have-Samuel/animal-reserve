@@ -1,0 +1,48 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgb(255, 9, 202);
+  color: aliceblue;
+  position: fixed;
+  top: -1px;
+  right: 0;
+  left: 0;
+  z-index: 1000000;
+}
+
+.nav-icons {
+  width: 34px;
+}
+
+.nav-search > * + * {
+  margin-left: 10px;
+}
+
+.mic {
+  margin-left: 50px;
+}
+
+.nav-title {
+  overflow: hidden;
+  transform: translateX(30%);
+  justify-self: center;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 18px;
+  width: 150px;
+  text-align: center;
+}
+
+.back {
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-title {
+    font-size: 20px;
+    text-overflow: clip;
+    width: 300px;
+  }
+}

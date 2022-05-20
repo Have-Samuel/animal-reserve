@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:thin,extra-light,light,100,200,300,400,500,600,700,800');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: rgb(179, 15, 143);
+  color: #fff;
+}
+
+.accordion {
+  background-color: rgb(126, 17, 80) !important;
+  padding: 10px 2px;
+}
+
+.accordion-eader > .accordion-button {
+  background-color: rgb(133, 9, 112);
+  color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+.img-container {
+  width: 100%;
+  position: relative;
+}
+
+.tag {
+  float: left;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  z-index: 1000;
+  padding: 5px;
+  background-color: rgba(255, 0, 255, 0.322);
+  color: #fff;
+  font-weight: bold;
+  font-size: 25px;
+  border-radius: 10px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+ul li {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+}
+
+small {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-left: 10px;
+  color: antiquewhite;
+}
+
+.location,
+.diet {
+  font-size: 12px;
+}
+
+.factName {
+  margin-right: 30px;
+  font-size: 20px;
+}
+
+.factProp {
+  font-size: 17px;
+}
+
+.facts > li {
+  padding: 15px 10px;
+}
+
+.facts > li:nth-child(odd) {
+  background-color: rgba(190, 18, 182, 0.6);
+}
+
+@media screen and (min-width: 768px) {
+  small {
+    text-overflow: unset;
+  }
+}
