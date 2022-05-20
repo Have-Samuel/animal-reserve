@@ -14,6 +14,6 @@ describe('test animalCard component', () => {
         onClick={() => {}}
       />,
     );
-    expect(tree).toMatchInlineSnapshot(`[Function]`);
+    expect(tree).toMatchInlineSnapshot('[Function]');
   });
 });
