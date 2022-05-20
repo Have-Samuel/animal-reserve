@@ -4,8 +4,9 @@ import AnimalCard from '../components/animalCard/animalCard';
 
 describe('test animalCard component', () => {
   test('check whether the componet renders correctly', () => {
-    const tree = renderer(
+    const tree = () => renderer(
       <AnimalCard
+        pos={4}
         key="animal.id"
         name="animal.name"
         img="AnimalCard.img"
@@ -13,6 +14,6 @@ describe('test animalCard component', () => {
         onClick={() => {}}
       />,
     );
-    expect(tree).toMatchInlineSnapshot();
+    expect(tree).toMatchInlineSnapshot(`[Function]`);
   });
 });

@@ -46,7 +46,7 @@ Array [
     className="search-sec"
   >
     <h4>
-      Animals
+      Animals Kinds
     </h4>
     <input
       className="input"

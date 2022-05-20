@@ -37,7 +37,7 @@ const HomePage = () => {
         <div className="image-cover" />
       </header>
       <div className="search-sec">
-        <h4>Animals</h4>
+        <h4>Animals Kinds</h4>
         <input className="input" type="text" palceholder="Search Animal..." onChange={handleSearch} />
       </div>
       <main className="main">
